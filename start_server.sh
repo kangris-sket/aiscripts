@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Starts up a local app inventor server for testing.
+# Uses the App Engine dev server in the SDK
+
 appinventor=/Users/mark/android/appinventor-sources/appinventor
 SDK=/Users/mark/android/appengine-java-sdk-1.8.9
 

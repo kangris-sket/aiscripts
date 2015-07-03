@@ -3,8 +3,8 @@
 # This is to be run ON the build server machine, not the local dev machine!
 # The expectation is the build server has a full git clone of the project.
 
-appinventor=/home/msherman/appinventor-sources/appinventor
-DEPLOY_DIR=/home/msherman/buildserver
+appinventor=/Users/mark/android/appinventor-sources/appinventor
+DEPLOY_DIR=/Users/mark/android/buildserver
 
 rm -rf $DEPLOY_DIR
 mkdir $DEPLOY_DIR

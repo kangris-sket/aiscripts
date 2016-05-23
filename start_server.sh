@@ -4,7 +4,7 @@
 # Uses the App Engine dev server in the SDK
 
 appinventor=/Users/mark/android/appinventor-sources/appinventor
-SDK=/Users/mark/android/appengine-java-sdk-1.9.27
+SDK=/Users/mark/android/appengine-java-sdk-1.9.37
 
 echo "Starting local App Inventor dev server"
 

@@ -1,11 +1,11 @@
 #!/bin/bash
 #appid=mark-ai
-appid=ai2snapshot
+appid=ai2-research
 
-BASEDIR=/Users/mark/android
+BASEDIR=/Users/mark/git
 
 appinventor=$BASEDIR/appinventor-sources/appinventor
-SDK=$BASEDIR/appengine-java-sdk-1.9.37
+SDK=$BASEDIR/appengine-java-sdk-1.9.54
 
 echo "##################################################"
 branch=`git -C $appinventor rev-parse --abbrev-ref HEAD`

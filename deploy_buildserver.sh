@@ -3,13 +3,13 @@
 # This is to be run ON the build server machine, not the local dev machine!
 # The expectation is the build server has a full git clone of the project.
 
-BASEDIR=/Users/mark/android
+BASEDIR=/Users/mark/git
 
 appinventor=$BASEDIR/appinventor-sources/appinventor
 DEPLOY_DIR=$BASEDIR/buildserver
 
 rm -rf $DEPLOY_DIR
-mkdir $DEPLOY_DIR
+mkdir -p $DEPLOY_DIR
 
 cd $appinventor/buildserver
 ant BuildDeploymentTar
